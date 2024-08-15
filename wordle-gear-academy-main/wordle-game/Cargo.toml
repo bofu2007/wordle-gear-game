@@ -1,0 +1,22 @@
+[package]
+name = "wordle-game"
+homepage.workspace = true
+authors.workspace = true
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+gstd.workspace = true
+parity-scale-codec = { workspace = true, default-features = false }
+scale-info = { workspace = true, default-features = false }
+
+[build-dependencies]
+gear-wasm-builder.workspace = true
+
+[dev-dependencies]
+gstd.workspace = true
+gtest.workspace = true
+parity-scale-codec = { workspace = true, default-features = false }
+scale-info = { workspace = true, default-features = false }

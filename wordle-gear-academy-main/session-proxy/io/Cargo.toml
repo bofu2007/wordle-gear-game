@@ -1,0 +1,11 @@
+[package]
+name = "session-proxy-io"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gstd.workspace = true
+gmeta.workspace = true
+parity-scale-codec = { workspace = true, default-features = false }
+scale-info = { workspace = true, default-features = false }
+enum-iterator.workspace = true

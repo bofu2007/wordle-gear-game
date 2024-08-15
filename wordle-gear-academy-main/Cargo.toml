@@ -1,0 +1,25 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "wordle-game",
+    "session-proxy"
+]
+
+[workspace.package]
+homepage = "https://github.com/OpenSourceToken/wordle-gear-academy"
+authors = ["ost <OpenSourceToken@hotmail.com>"]
+version = "1.1.0"
+license = "MIT"
+edition = "2021"
+publish = false
+
+[workspace.dependencies]
+enum-iterator = "2.1.0"
+gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.2" }
+gmeta = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.2" }
+gtest = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.2" }
+gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.2" }
+parity-scale-codec = { version = "3", default-features = false }
+scale-info = { version = "2", default-features = false }
+session-proxy-io.path = "session-proxy/io"
